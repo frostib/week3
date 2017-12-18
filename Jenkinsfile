@@ -14,6 +14,8 @@ node {
     }
     stage('Test') {
         sh 'npm run test:nowatch'
+        sh 'yarn add jasmine-reporters'
+        junit '**/tests/*.xml'
     }
     stage('Deploy') {
         sh './dockerbuild.sh'
