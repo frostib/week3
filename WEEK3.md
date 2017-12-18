@@ -6,7 +6,6 @@ Pass: 94729118513e486791052b6ac2d4632e
 Url to your live TicTacToe instance
 Build failar i deploy stage.
 sh: fork: Cannot allocate memory
-Everything is slow... :(
 
 Public Url to your Datadog
 https://p.datadoghq.com/sb/ebd7f5c26-5105f05666
