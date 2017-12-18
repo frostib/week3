@@ -53,7 +53,7 @@ if [[ $rc != 0 ]] ; then
     echo "Docker build failed " $rc
     exit $rc
 fi
-
+# login here?
 docker push frostib/tictactoe:$GIT_COMMIT
 rc=$?
 if [[ $rc != 0 ]] ; then
